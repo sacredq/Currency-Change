@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Currency Change</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class = "header_section">
+            <header>
+                <div class = "left_side">
+                    <i class="fa-solid fa-money-bill-trend-up"></i>
+                    <a href = "#">Personal</a>
+                    <a href = "#">Business</a>
+                    <a href = "#">Platform</a>
+                </div>
+
+                <div class = "right_side">
+                    <div class = "lang">
+                        <i></i>
+                        <a href = "#">EN</a>
+                    </div>
+                    <a href = "#">Login</a>
+                    <button class = "Register">Register</button>
+                    <button class = "Help">Help</button>
+                </div>
+            </header>
+            <div class = "Text">
+                <h1>Global currency conversions & money transfers</h1>
+                <p>Leading the world in currency information and global transfers for 30+ years</p>
+            </div>
+            <section class = "convert">
+                <div class = "convert_box">
+                    <form>
+                        <input id = "amount" type = "text" placeholder = "amount" value = "100">
+                        <div class = "exchange_box">
+                            <p>From</p>
+                            <p>USD - US Dollar</p>
+                        </div>
+
+                        <div class = "exchange_box">
+                            <p>To</p>
+                            <p>EUR - Euro</p>
+                        </div>
+                    </form>
+                    <div class = "bottom-info">
+                        <p id = "res">The result is: </p>
+                        <button id = "action">Convert</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <script src = "main.js"></script>
+    </body>
+</html>
